@@ -24,6 +24,7 @@ The repo is organized to mirror how many security learning resources (e.g. PortS
 Top-level folders and purpose:
 
 * [Basics](Cheat%20Sheets/Basics/README.md) — Introduces SQLi, common SQL syntax and statements you should know.
+* [Detection](Cheat%20Sheets/Detection/README.md) — Safe detection methods: error-message analysis, response analysis, and techniques for recognizing blind SQLi.
 
 Each folder contains a `README.md` explaining its scope and linking to the files inside.
 
@@ -39,7 +40,8 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 
 ## How to use this cheat sheet
 
-1. **Start in [Basics](Cheat%20Sheets/)** to make sure you understand SQL syntax and the different types of SQLi.
+1. **Start in [Basics](Cheat%20Sheets/Basics/README.md)** to make sure you understand SQL syntax and the different types of SQLi.
+2. **Read [Detection](Cheat%20Sheets/Detection/README.md)** to learn how to identify vulnerable inputs safely without causing harm.
 
 ---
 
