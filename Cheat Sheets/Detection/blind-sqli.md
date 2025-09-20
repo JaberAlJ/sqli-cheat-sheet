@@ -134,7 +134,7 @@ Loop over characters and positions to reconstruct values.
 
 * **Burp Suite**: use Intruder and Repeater for manual blind testing; use Comparer and logging for diffs.
 * **sqlmap**: supports blind techniques (`--technique=B,T`), but be cautious — it’s noisy and can cause damage.
-* **Custom scripts**: Python + `requests` or `https` for controlled, repeatable tests with statistical averaging for timings.
+* **Custom scripts**: Python + `requests` or `httpx` for controlled, repeatable tests with statistical averaging for timings.
 
 ---
 
