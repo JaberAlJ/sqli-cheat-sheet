@@ -9,7 +9,7 @@ A concise, practical reference for learning, detecting, and safely testing **SQL
 
 ---
 
-> [!IMPORTANT]
+> [!WARNING]
 > #### **Ethics & safe use**
 > This repository is intended **only** for educational purposes, secure development, and authorized security testing. Do **not** use the materials here to attack systems you do not own or do not have explicit permission to test. Unauthorized access is illegal and unethical.
 >
@@ -23,7 +23,7 @@ The repo is organized to mirror how many security learning resources (e.g. PortS
 
 Top-level folders and purpose:
 
-
+* [Basics](Cheat%20Sheets/Basics/README.md) — Introduces SQLi, common SQL syntax and statements you should know.
 
 Each folder contains a `README.md` explaining its scope and linking to the files inside.
 
@@ -39,7 +39,7 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 
 ## How to use this cheat sheet
 
-
+1. **Start in [Basics](Cheat%20Sheets/)** to make sure you understand SQL syntax and the different types of SQLi.
 
 ---
 
