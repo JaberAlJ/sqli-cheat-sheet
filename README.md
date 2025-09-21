@@ -48,14 +48,14 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 2. **Read [Detection](Cheat%20Sheets/Detection/README.md)** to learn how to identify vulnerable inputs safely without causing harm.
 3. **Move to [Exploitation](Cheat%20Sheets/Exploitation/README.md)** only in controlled, authorized environments to practice how payloads behave.
 4. **Refer to [Advanced](Cheat%20Sheets/Advanced/README.md)** to learn advanced topics.
-5. **Consult [Examples](Cheat%20Sheets/Examples/README.md)** for DBMS-specific quirks and realistic payloads you can practices with locally or on intentionally vulnerable labs.
-5. **Use [Tools](Cheat%20Sheets/Tools/README.md)** for automation and proof-of-concept testing — always aligned with your authorization.
+5. **Consult [Examples](Cheat%20Sheets/Examples/README.md)** for DBMS-specific quirks and realistic payloads you can practice with locally or on intentionally vulnerable labs.
+6. **Use [Tools](Cheat%20Sheets/Tools/README.md)** for automation and proof-of-concept testing — always aligned with your authorization.
 
 ---
 
 ## 🚀 Getting Started
 Browse the [📂 Cheat Sheets](./Cheat%20Sheets) folder and open any `.md` file to view commands.  
-Each section is self-contained and focuses on a specific SQL topic.
+Each section is self-contained and focuses on a specific SQLi topic.
 
 ---
 
@@ -74,4 +74,66 @@ Contributions are always welcome! If you find any commands that are missing, inc
 ## Attribution & resources
 
 > [!NOTE]
-> This repository is informed by public learning resources and practical write-ups (including PortSwigger) — see each file for recommended reading and references.
+> This repository is informed by widely used public resources, tutorials, and practical write-ups in the field of SQL Injection and web application security. The following references were used or recommended for further learning:
+
+### Learning Platforms
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security) — Interactive labs and comprehensive tutorials on SQLi and other web vulnerabilities.
+- [OWASP Web Security Testing Guide (WSTG)](https://owasp.org/www-project-web-security-testing-guide/) — Authoritative guidance for testing web application security.
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) — Vulnerable web application for safe hands-on practice.
+
+### Practical Tutorials & Write-ups
+- [SQL Injection Explained](https://www.acunetix.com/websitesecurity/sql-injection/) — Clear explanations with examples of SQLi types and attacks.
+- [SQLi Labs & Exercises](https://github.com/Audi-1/sqli-labs) — Lab exercises for MySQL, PostgreSQL, and other databases.
+- [PortSwigger SQLi Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet) — Reference for payloads and techniques.
+
+### Reference Material
+- Database documentation for MySQL, MSSQL, PostgreSQL, Oracle — for understanding system functions and version-specific quirks.
+- Security write-ups and research articles from Bug Bounty programs (publicly disclosed).
+
+> [!WARNING]
+> All materials are intended for educational purposes. Always use labs or authorized environments for testing and follow ethical guidelines.
+
+---
+
+## 📂 Repository Structure
+
+The repository is organized into logical sections to make it easy to find the SQLi statements you need.  
+Each topic has its own dedicated Markdown file (`.md`) inside the `Cheat Sheets/` directory.
+
+```text
+├── 📁 Cheat Sheets/
+│   ├── 📁 Advanced/
+│   │   ├── 📖 README.md
+│   │   ├── 📝 bypass-filters.md
+│   │   ├── 📝 out-of-band.md
+│   │   └── 📝 second-order.md
+│   ├── 📁 Basics/
+│   │   ├── 📖 README.md
+│   │   ├── 📝 sql-injection-types.md
+│   │   ├── 📝 sql-statements.md
+│   │   └── 📝 sql-syntax.md
+│   ├── 📁 Detection/
+│   │   ├── 📖 README.md
+│   │   ├── 📝 blind-sqli.md
+│   │   ├── 📝 error-messages.md
+│   │   └── 📝 response-analysis.md
+│   ├── 📁 Examples/
+│   │   ├── 📖 README.md
+│   │   ├── 📝 mssql-examples.md
+│   │   ├── 📝 mysql-examples.md
+│   │   ├── 📝 oracle-examples.md
+│   │   └── 📝 postgresql-examples.md
+│   ├── 📁 Exploitation/
+│   │   ├── 📖 README.md
+│   │   ├── 📝 boolean-based.md
+│   │   ├── 📝 error-based.md
+│   │   ├── 📝 stacked-queries.md
+│   │   ├── 📝 time-based.md
+│   │   └── 📝 union-based.md
+│   └── 📁 Tools/
+│       ├── 📖 README.md
+│       ├── 📝 burpsuite.md
+│       ├── 📝 payloads.md
+│       └── 📝 sqlmap.md
+└── 📖 README.md
+```
