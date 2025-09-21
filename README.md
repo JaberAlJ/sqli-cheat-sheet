@@ -26,6 +26,8 @@ Top-level folders and purpose:
 * [Basics](Cheat%20Sheets/Basics/README.md) — Introduces SQLi, common SQL syntax and statements you should know.
 * [Detection](Cheat%20Sheets/Detection/README.md) — Safe detection methods: error-message analysis, response analysis, and techniques for recognizing blind SQLi.
 * [Exploitation](Cheat%20Sheets/Exploitation/README.md) — Core exploitation techniques (UNION, error-based, boolean/time-based blind, stacked queries).
+* [Advanced](Cheat%20Sheets/Advanced/README.md) — Out-of-band techniques, second-order SQLi, and filter/WAF bypass strategies.
+
 
 Each folder contains a `README.md` explaining its scope and linking to the files inside.
 
@@ -44,6 +46,7 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 1. **Start in [Basics](Cheat%20Sheets/Basics/README.md)** to make sure you understand SQL syntax and the different types of SQLi.
 2. **Read [Detection](Cheat%20Sheets/Detection/README.md)** to learn how to identify vulnerable inputs safely without causing harm.
 3. **Move to [Exploitation](Cheat%20Sheets/Exploitation/README.md)** only in controlled, authorized environments to practice how payloads behave.
+4. **Refer to [Advanced](Cheat%20Sheets/Advanced/README.md)** to learn advanced topics.
 
 ---
 
