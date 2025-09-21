@@ -27,6 +27,7 @@ Top-level folders and purpose:
 * [Detection](Cheat%20Sheets/Detection/README.md) — Safe detection methods: error-message analysis, response analysis, and techniques for recognizing blind SQLi.
 * [Exploitation](Cheat%20Sheets/Exploitation/README.md) — Core exploitation techniques (UNION, error-based, boolean/time-based blind, stacked queries).
 * [Advanced](Cheat%20Sheets/Advanced/README.md) — Out-of-band techniques, second-order SQLi, and filter/WAF bypass strategies.
+* [Examples](Cheat%20Sheets/Examples/README.md) — Concrete examples and payloads for MySQL, MSSQL, Oracle, PostgreSQL, etc.
 
 
 Each folder contains a `README.md` explaining its scope and linking to the files inside.
@@ -47,6 +48,7 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 2. **Read [Detection](Cheat%20Sheets/Detection/README.md)** to learn how to identify vulnerable inputs safely without causing harm.
 3. **Move to [Exploitation](Cheat%20Sheets/Exploitation/README.md)** only in controlled, authorized environments to practice how payloads behave.
 4. **Refer to [Advanced](Cheat%20Sheets/Advanced/README.md)** to learn advanced topics.
+5. **Consult [Examples](Cheat%20Sheets/Examples/README.md)** for DBMS-specific quirks and realistic payloads you can practices with locally or on intentionally vulnerable labs.
 
 ---
 
