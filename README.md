@@ -28,7 +28,7 @@ Top-level folders and purpose:
 * [Exploitation](Cheat%20Sheets/Exploitation/README.md) — Core exploitation techniques (UNION, error-based, boolean/time-based blind, stacked queries).
 * [Advanced](Cheat%20Sheets/Advanced/README.md) — Out-of-band techniques, second-order SQLi, and filter/WAF bypass strategies.
 * [Examples](Cheat%20Sheets/Examples/README.md) — Concrete examples and payloads for MySQL, MSSQL, Oracle, PostgreSQL, etc.
-
+* [Tools](Cheat%20Sheets/Tools/README.md) — How to use common tools (sqlmap, Burp Suite) responsibly, plus curated payload lists.
 
 Each folder contains a `README.md` explaining its scope and linking to the files inside.
 
@@ -49,6 +49,7 @@ Each folder contains a `README.md` explaining its scope and linking to the files
 3. **Move to [Exploitation](Cheat%20Sheets/Exploitation/README.md)** only in controlled, authorized environments to practice how payloads behave.
 4. **Refer to [Advanced](Cheat%20Sheets/Advanced/README.md)** to learn advanced topics.
 5. **Consult [Examples](Cheat%20Sheets/Examples/README.md)** for DBMS-specific quirks and realistic payloads you can practices with locally or on intentionally vulnerable labs.
+5. **Use [Tools](Cheat%20Sheets/Tools/README.md)** for automation and proof-of-concept testing — always aligned with your authorization.
 
 ---
 
